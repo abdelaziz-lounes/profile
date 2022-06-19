@@ -18,7 +18,7 @@ $mail = new PHPMailer();
     $mail->SMTPAuth= true;
      //Enable SMTP authentication
     $mail->Username   = 'abdelazizlounes2@gmail.com';                     //SMTP username
-    $mail->Password   = 'ocotdjqugwlapoyn';                               //SMTP password
+    $mail->Password   = '';   //SMTP password here 
     $mail->SMTPSecure = 'ssl';            //Enable implicit TLS encryption
     $mail->Port       = 465;    
     
